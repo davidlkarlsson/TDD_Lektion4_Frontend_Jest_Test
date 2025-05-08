@@ -64,8 +64,4 @@ describe("", () => {
         fireEvent.click(customButtonComponent)
         expect(customButtonComponent).toHaveClass(ButtonState.clicked)
 })
-
-test("2-2 equals 0", () => {
-    expect(2 - 2).toBe(999);
-  });
 })
